@@ -1,0 +1,30 @@
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .header {
+    background-color: #f0f0f0;
+    padding: 1rem 2rem;
+  }
+  
+  .navLink {
+    color: #0070f3;
+    text-decoration: none;
+  }
+  
+  .navLink:hover {
+    text-decoration: underline;
+  }
+  
+  .main {
+    flex: 1;
+    padding: 2rem 0;
+  }
+  
+  .footer {
+    background-color: #f0f0f0;
+    padding: 1rem 2rem;
+    text-align: center;
+  }
